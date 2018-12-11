@@ -1,0 +1,135 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Build a NodeJS-Cucumber framework for UI",
+    "line": 1,
+    "id": "build-a-nodejs-cucumber-framework-for-ui",
+    "tags": [],
+    "uri": "features\\project1.feature",
+    "elements": [
+      {
+        "id": "build-a-nodejs-cucumber-framework-for-ui;validate-the-invalid-user-of-opencart",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "validate the invalid user of opencart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9771000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I launch the opencart url",
+            "match": {
+              "location": "features\\step_definitions\\my_steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the title of the opencart page",
+            "match": {
+              "location": "features\\step_definitions\\my_steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on Login link",
+            "match": {
+              "location": "features\\step_definitions\\my_steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I enter the  invalid \"kb.shamo@gmail.com\" in uservalue",
+            "match": {
+              "location": "features\\step_definitions\\my_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter the invalid \"hello123\" in passvalue",
+            "match": {
+              "location": "features\\step_definitions\\my_steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on login button",
+            "match": {
+              "location": "features\\step_definitions\\my_steps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see the \"No match for EMail and/or Password.\"",
+            "match": {
+              "location": "features\\step_definitions\\my_steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16715000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

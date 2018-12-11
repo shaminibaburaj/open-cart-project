@@ -1,0 +1,21 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "dependencies": {
+    "chromedriver": "^2.44.1",
+    "selenium-webdriver": "^3.6.0"
+  },
+  "devDependencies": {
+    "cucumber": "^5.0.3",
+    "cucumber-html-reporter": "^2.0.3",
+    "gulp": "^4.0.0",
+    "gulp-cucumber": "0.0.23"
+  },
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "shamini",
+  "license": "ISC"
+}
